@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Zambian Flag Colors -->
+    <color name="colorPrimary">#2D8C3C</color> <!-- Green -->
+    <color name="colorPrimaryDark">#1A5C24</color> <!-- Darker Green -->
+    <color name="colorAccent">#F2994A</color> <!-- Orange (similar to eagle) -->
+
+    <!-- Supporting Colors -->
+    <color name="colorBackground">#F0F2F5</color> <!-- Light Grey for background -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White for cards/surfaces -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White text on primary color -->
+    <color name="colorOnSurface">#212121</color> <!-- Dark text on surfaces -->
+    <color name="colorOnBackground">#212121</color> <!-- Dark text on background -->
+    <color name="textColorPrimary">#212121</color> <!-- Primary text color -->
+    <color name="textColorSecondary">#757575</color> <!-- Secondary text color -->
+    <color name="dividerColor">#E0E0E0</color> <!-- Divider color -->
+
+    <!-- Additional Zambian-inspired colors -->
+    <color name="zambianRed">#BF222C</color>
+    <color name="zambianBlack">#000000</color>
+</resources>
+

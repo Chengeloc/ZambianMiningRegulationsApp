@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0"/>
+    
+    <!-- Mining helmet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,45 Q30,35 40,35 L80,35 Q90,35 90,45 L90,65 Q90,75 80,75 L40,75 Q30,75 30,65 Z"/>
+    
+    <!-- Helmet light -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M60,35 A5,5 0 1,1 60,45 A5,5 0 1,1 60,35"/>
+    
+    <!-- Pickaxe handle -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M45,85 L75,85 L75,90 L45,90 Z"/>
+    
+    <!-- Pickaxe head -->
+    <path
+        android:fillColor="#616161"
+        android:pathData="M35,75 L85,75 L80,85 L40,85 Z"/>
+    
+    <!-- Gear -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M85,25 L95,25 L95,35 L85,35 Z M80,30 L100,30 L100,40 L80,40 Z"/>
+    
+</vector>
+

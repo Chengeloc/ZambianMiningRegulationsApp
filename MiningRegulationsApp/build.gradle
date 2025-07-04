@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.charleschildumba.miningregulations"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'org.tensorflow:tensorflow-lite-task-text:0.4.0'
+    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:2.12.0'
+    // No appcompat or material design libraries for a simpler, native look
+    // implementation 'androidx.appcompat:appcompat:1.6.1'
+    // implementation 'androidx.cardview:cardview:1.0.0'
+    // implementation 'com.google.android.material:material:1.9.0'
+}
+
